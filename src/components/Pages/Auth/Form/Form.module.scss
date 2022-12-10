@@ -1,0 +1,19 @@
+.form{
+    max-width: 644px;
+    width: 100%;
+    padding: 46px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: var(--white-color);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    &__logo{
+        max-width: 130px;
+        width: 100%;
+        aspect-ratio: 33/5;
+        position: relative;
+    }
+}
