@@ -7,8 +7,8 @@ import cls from './Input.module.scss'
 const Input = ({
     type = 'text',
     label = '',
-    VisibilyIcon = <Visibility />,
-    VisibilyOffIcon = <VisibilityOff />,
+    VisibilyIcon = <Visibility sx={{color: '#989898'}} />,
+    VisibilyOffIcon = <VisibilityOff sx={{color: '#989898'}} />,
     withIcon = false,
     name = '',
     placeholder = '',
